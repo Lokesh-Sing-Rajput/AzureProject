@@ -1,0 +1,9 @@
+{
+	"name": "spotifyprojectdf",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "936d84a6-12a4-4a13-adeb-2956160378d1",
+		"tenantId": "c5bcc00e-9bdb-4b76-9066-3c51c4089f14"
+	}
+}
