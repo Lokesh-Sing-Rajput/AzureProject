@@ -1,0 +1,18 @@
+{
+	"name": "lokeshazurelink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "linking between Azure SQL Database and  Azure data Factory",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "lokeshazureserver.database.windows.net",
+			"database": "lokeshazuredb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminlokesh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlGNzM4RkI4LUY5NzQtNDk5MS1COTkxLTA5RDc0NkM3RDA1NF85OTExYmQ3NS1kZTQ0LTRmNDctYmEzMi01OGZjZDQyYzRjZjEiDQp9"
+		}
+	}
+}
